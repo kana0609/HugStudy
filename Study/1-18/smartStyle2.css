@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header,
+footer {
+  height: 100px;
+  width: 100%;
+}
+header {
+  background: #ffce7a;
+}
+aside {
+  width: 100px;
+  height: 250px;
+  background: #9dddf4;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+main {
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.right {
+  width: 75px;
+  height: 150px;
+  background: #f89c9c;
+}
+.left_top {
+  width: 125px;
+  height: 50px;
+
+  background: #c2ffc8;
+}
+.left_bottom {
+  width: 125px;
+  height: 100px;
+
+  background: #ffc2c5;
+}
+.bottom {
+  width: 200px;
+  height: 100px;
+
+  background: #fff083;
+}
+footer {
+  height: 100px;
+  background: #bea5ff;
+}
