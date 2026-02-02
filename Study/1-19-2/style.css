@@ -1,0 +1,86 @@
+/* 共通 */
+body {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* 上 */
+.top {
+  height: 100px;
+  background: #FFCE7A;
+  position: relative;
+}
+
+.top-boxes {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.mini {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #C2FFC8;
+  margin-left: 10px;
+}
+
+/* 中央 */
+.middle {
+  height: 250px;
+}
+
+/* 左 */
+.left {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background: #9DDDF4;
+}
+
+/* 右 */
+.right {
+  float: left;
+  width: 250px;
+  height: 250px;
+  background: #C2FFC8;
+  padding-top: 20px;
+}
+
+/* 白枠 */
+.white-box {
+  width: 160px;
+  background: #fff;
+  padding: 10px;
+  margin: 0 auto 20px;
+}
+
+/* ピンク */
+.pink {
+  background: #FFC2C5;
+  height: 40px;
+}
+
+.long {
+  width: 140px;
+}
+
+.short {
+  width: 140px;
+}
+
+/* 下 */
+.bottom {
+  height: 100px;
+  background: #BEA5FF;
+}
